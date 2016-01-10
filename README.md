@@ -3,18 +3,15 @@
 ## Abstract
 > *elevator pitch - 300 character*
 
-A functional programming background is certainly not required for Elixir but there's certainly
-some areas that can make your life easier and your code considerably more Elixir like.
+A functional programming background is certainly not required for Elixir but understanding a few functional principles can make your life easier and your code considerably more Elixir like.
 
--OR-
-
-At first glance, Elixir looks a lot like Ruby but about 10 minutes of coding in Elixir will put
-a screeching halt to that idea. We're going to look at a few of the common areas that cause developers
-issues as they approach and mature in Elixir coding.
 
 ## Description:
 > *public abstract*
 
+At first glance, Elixir looks a lot like Ruby but about 10 minutes of coding in Elixir will put a screeching halt to that idea. Erlang's functional/distributed programming background shines through in Elixir. Combined with a modern/familiar syntax and a great macro language Elixir gives us an ideal way to start down the functional programming path.
+
+If I had to describe the Elixir Way in one word, it would be "explicit". Elixir avoids programming magic and instead strives for a clean, no surprises, style. We're going to look at a few functional concepts that help bring Explicit Elixir into perspective.
 
 
 ## Notes
@@ -36,7 +33,7 @@ issues as they approach and mature in Elixir coding.
   2. no new variables or assignment
   3. treat as expression that returns a value
   4. just avoid unless
-5. use with
+5. use with [maybe/maybe not, depends on time/example]
   1. refactor nested case
 
 

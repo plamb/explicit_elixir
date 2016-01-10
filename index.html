@@ -40,16 +40,22 @@
 
 	<!-- Any section element inside of this container is displayed as a slide -->
 	<div class="slides">
-		<section>
-			<h1>Explicit Elixir</h1>
-			<h3>Do This, Not That</h3>
-			<br><br><br>
-			<p>
-				<small>Presentation by <a href="http://paullamb.exposed">Paul Lamb</a> / <a href="http://twitter.com/paullamb">@PaulLamb</a></small>
-			</p>
+		<section id="intro">
+			<section>
+				<h1>Explicit Elixir</h1>
+				<h3>Do This, Not That</h3>
+				<br><br><br>
+				<p>
+					<small>Presentation by <a href="http://paullamb.exposed">Paul Lamb</a> / <a href="http://twitter.com/paullamb">@PaulLamb</a></small>
+				</p>
+			</section>
+			<section>
+				<h3>Most important lesson of software development. It always depends</h3>
+				https://twitter.com/mat_mcloughlin/status/680869453446393856
+			</section>
 		</section>
 
-		<section>
+		<section id="tell-a-story">
 			<section>
 				<h2>Tell A Story</h2>
 				<p></p>
@@ -61,12 +67,52 @@
 					|> tell
 				</code>
 			</section>
+			<section>
+				Data in, Data out.
+				[Jessica Kerr]
+				<br>
+				Because all programming is transformation.
+				[Dave Thomas]
+			</section>
+			<section>
+				<code class="hljs" data-trim contenteditable>
+					data
+					|> tranform
+					|> output
+				</code>
+			</section>
 		</section>
 
-		<section>
+		<section id="pure">
 			<section>
 				<h2>Pure Functions</h2>
-				<p></p>
+			</section>
+			<section>
+				<h2>Defined:</h2>
+				<p>In computer programming, a function may be considered a pure function if both of the following statements about the function hold:
+
+The function always evaluates the same result value given the same argument value(s). The function result value cannot depend on any hidden information or state that may change while program execution proceeds or between different executions of the program, nor can it depend on any external input from I/O devices (usually—see below).
+Evaluation of the result does not cause any semantically observable side effect or output, such as mutation of mutable objects or output to I/O devices (usually—see below).</p>
+			</section>
+			<section>
+				<code class="hljs" data-trim contenteditable>
+					add(2,2)
+				</code>
+			</section>
+			<section>
+				<code class="hljs" data-trim contenteditable>
+					Date.now
+					Chronos.yesterday
+				</code>
+			</section>
+			<section>
+				<h2>Black Box</h2>
+				Data in, Data out.
+				[Jessica Kerr]
+			</section>
+			<section>
+				<h2>Small</h2>
+				Think of functions as small building blocks, a few lines is good. A few dozen is a smell.
 			</section>
 		</section>
 
@@ -74,6 +120,9 @@
 			<section>
 				<h2>Pattern Match It All</h2>
 				<p></p>
+			</section>
+			<section>
+				<h2>params that must/should be a thing, should specify that thing</h2>
 			</section>
 		</section>
 
@@ -91,10 +140,16 @@
 			</section>
 		</section>
 
-		<section>
+		<section id="conclusion">
 			<section>
-				<h2>With It, With It Good</h2>
-				<p></p>
+				https://twitter.com/joeerl/status/680670648373481473
+				+ choose accurate names
+				+ favor beauty over performance
+				+ design minimal essential API's
+				+ document the unobvious
+			</section>
+			<section>
+				<img src="images/dilbert_any_questions.gif">
 			</section>
 		</section>
 
